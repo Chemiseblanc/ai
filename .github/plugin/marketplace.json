@@ -1,0 +1,25 @@
+{
+    "name": "chemiseblanc-ai",
+    "metadata": {
+        "description": "Collection of personal AI tools organized into seperate plugins",
+        "version": "1.0.0"
+    },
+    "owner": {
+        "name": "Matthew Gibson",
+        "email": "matt@mgibson.ca"
+    },
+    "plugins": [
+        {
+            "name": "cascade-development",
+            "description": "Tools for user-agile, ai-waterfall development",
+            "version": "1.0.0",
+            "source": "plugins/cascade-development"
+        },
+        {
+            "name": "general",
+            "description": "Catch-all for all other tools",
+            "version": "1.0.0",
+            "source": "plugins/general"
+        }
+    ]
+}
