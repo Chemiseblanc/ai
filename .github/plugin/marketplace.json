@@ -20,6 +20,12 @@
             "description": "Catch-all for all other tools",
             "version": "1.0.0",
             "source": "plugins/general"
+        },
+        {
+            "name": "orchestra",
+            "description": "Orchestrator-pattern agents",
+            "version": "0.1.0",
+            "source": "plugins/orchestra"
         }
     ]
 }
