@@ -1,7 +1,7 @@
 ---
 name: orchestrator
 description: Orchestrates calling other agents
-tools: [agent, todo, search/searchSubagent, vscode/askQuestions, vscode.mermaid-chat-features/renderMermaidDiagram]
+tools: [agent, todo, vscode/askQuestions, vscode.mermaid-chat-features/renderMermaidDiagram]
 agents: ["*"]
 disable-model-invocation: true
 ---
@@ -20,6 +20,10 @@ based on the success/failure/status of the agents. You
 should follow the OODA process when deciding the new workflow.
 
 If you do not know the scope of a task, use an agent to esimate it. Then split it into smaller chunks which can be fanned out to multiple sub-agents.
+
+<workflow>
+You will repeat this process until the task is complete.
+</workflow>
 
 # Reporting status to the user
 
